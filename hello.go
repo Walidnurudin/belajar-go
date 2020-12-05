@@ -2,10 +2,10 @@ package main
 
 import (
 	"fmt"
-	walidnurudin "walidnurudin/tambah"
+	"walid/paket1"
 )
 
 func main() {
-	jumblah := walidnurudin.Add(10, 5)
+	jumblah := paket1.Add(10, 20)
 	fmt.Println("Hello, world!", jumblah)
 }
