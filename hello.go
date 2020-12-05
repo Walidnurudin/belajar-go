@@ -1,7 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	walidnurudin "walidnurudin/tambah"
+)
 
 func main() {
-	fmt.Println("Hello, world!")
+	jumblah := walidnurudin.Add(10, 5)
+	fmt.Println("Hello, world!", jumblah)
 }
