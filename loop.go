@@ -17,8 +17,16 @@ func main() {
 	// }
 
 	// 3
+	// name := "Walid nurudin"
+	// for index, huruf := range name {
+	// 	fmt.Println("index ke", index, "huruf = ", string(huruf))
+	// }
+
+	// case
 	name := "Walid nurudin"
 	for index, huruf := range name {
-		fmt.Println("index ke", index, "huruf = ", string(huruf))
+		if index%2 == 0 {
+			fmt.Println(string(huruf))
+		}
 	}
 }
