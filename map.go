@@ -21,4 +21,9 @@ func main() {
 	for index, item := range binatang {
 		fmt.Println(index, item)
 	}
+
+	// name variable, isAvailable(true ot false)
+	value, duar := binatang["kuda"]
+
+	fmt.Println(value, duar)
 }

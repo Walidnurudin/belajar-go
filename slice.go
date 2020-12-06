@@ -10,7 +10,17 @@ func main() {
 	// nama = append(nama, "nurudin")
 
 	// 2
-	nama := []string{"walid", "nurudin"}
+	// nama := []string{"walid", "nurudin"}
 
-	fmt.Println(nama)
+	// fmt.Println(nama)
+
+	// slice of map
+	students := []map[int]string{
+		{1: "walid", 2: "indramayu"},
+		{1: "wawewow", 2: "pilang payung"},
+	}
+
+	for _, student := range students {
+		fmt.Println(student[1] + " - " + student[2])
+	}
 }

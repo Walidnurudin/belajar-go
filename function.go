@@ -20,6 +20,13 @@ func klub(name string, born int) (string, int) {
 	return "nama klub " + name, born
 }
 
+// return 2 nilai, predifined return value
+func rumus(panjang int, lebar int) (luas int, keliling int) {
+	luas = panjang * lebar
+	keliling = 2 * (panjang + lebar)
+	return
+}
+
 // func main langsung jalan
 func main() {
 	fmt.Println(penjumlahan(10, 10))
@@ -27,4 +34,7 @@ func main() {
 
 	name, born := klub("persib bandung", 1933)
 	fmt.Println(name, born)
+
+	luas, keliling := rumus(10, 10)
+	fmt.Println(luas, keliling)
 }
